@@ -148,3 +148,43 @@ footer a {
   display: block;
   margin: 0 auto 1rem auto;
 }
+.hero-split {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p,
+.hero-text a {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #333333;
+  text-decoration: none;
+}
+
+.hero-image {
+  flex: 1;
+  background: url('assets/gigdriver.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.logo-small {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
