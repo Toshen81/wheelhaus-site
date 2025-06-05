@@ -180,14 +180,18 @@ footer a {
 
 .hero-image {
   flex: 1;
-  background: url('assets/gigdriver.jpg') no-repeat center center;
+  background: url('assets/gigdriver.jpg') no-repeat center 20%;
   background-size: cover;
-  background-position: top center;
   min-height: 80vh;
+}
 }
 }
 
 .logo-small {
-  max-width: 100px;
-  margin-bottom: 1rem;
+  width: 120px;
+  height: auto;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
 }
