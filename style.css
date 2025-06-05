@@ -11,9 +11,10 @@ body {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
-  width: 85px;
+  width: 130px; /* medium size */
   height: auto;
   z-index: 1000;
+}
 }
 
 /* Hero Section */
@@ -26,7 +27,7 @@ body {
 
 .hero-text {
   flex: 1;
-  padding: 3rem 2rem;
+  padding: 3rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
