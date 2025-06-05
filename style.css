@@ -22,12 +22,13 @@ a:hover {
 
 /* Fixed Logo */
 .logo-small {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
   width: 90px;
   height: auto;
   z-index: 1000;
+}
 }
 
 /* Hero Split Layout */
@@ -165,6 +166,41 @@ a:hover {
 
 .contact button:hover {
   background-color: #a52c34;
+}
+.dv-section {
+  background-color: #f8f8f8;
+  padding: 4rem 2rem;
+}
+
+.dv-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 2rem;
+}
+
+.dv-content img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.dv-text {
+  max-width: 500px;
+}
+
+.dv-text h2 {
+  font-size: 2rem;
+  color: #CA3740;
+  margin-bottom: 0.5rem;
+}
+
+.dv-text p {
+  font-size: 1.1rem;
+  color: #333;
 }
 
 /* Footer */
