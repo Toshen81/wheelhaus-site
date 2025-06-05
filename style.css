@@ -1,4 +1,4 @@
-/* General Layout */
+/* General Reset & Font */
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -6,32 +6,17 @@ body {
   color: #000000;
 }
 
-h1, h2 {
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-a {
-  color: #CA3740;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Fixed Logo */
+/* Logo Styling */
 .logo-small {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
   width: 90px;
   height: auto;
-  z-index: 1000;
-}
+  z-index: 10;
 }
 
-/* Hero Split Layout */
+/* Hero Section */
 .hero-split {
   display: flex;
   flex-wrap: wrap;
@@ -45,12 +30,12 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #000000;
 }
 
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: #CA3740;
 }
 
 .hero-text p {
@@ -66,9 +51,8 @@ a:hover {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  display: inline-block;
-  margin-top: 1rem;
   text-decoration: none;
+  display: inline-block;
 }
 
 .cta-button:hover {
@@ -80,15 +64,15 @@ a:hover {
   margin-top: 0.5rem;
 }
 
-/* Hero Image Right Side */
+/* Hero Image */
 .hero-image {
   flex: 1;
-  background: url('assets/gigdriver.jpg') no-repeat center 20%;
+  background: url('assets/gigdriver.jpg') no-repeat center center;
   background-size: cover;
   min-height: 80vh;
 }
 
-/* How It Works */
+/* How It Works Section */
 .how-it-works {
   text-align: center;
   padding: 4rem 2rem;
@@ -111,7 +95,7 @@ a:hover {
   margin-bottom: 0.75rem;
 }
 
-/* Diminished Value */
+/* Diminished Value Section */
 .dv-section {
   background: url('assets/cars1.jpg') no-repeat center center;
   background-size: cover;
@@ -131,7 +115,7 @@ a:hover {
   text-shadow: 0 0 6px rgba(0,0,0,0.4);
 }
 
-/* Contact Section */
+/* Contact Form */
 .contact {
   padding: 4rem 2rem;
   text-align: center;
@@ -146,7 +130,8 @@ a:hover {
   gap: 1rem;
 }
 
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
   padding: 0.75rem;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -166,41 +151,6 @@ a:hover {
 
 .contact button:hover {
   background-color: #a52c34;
-}
-.dv-section {
-  background-color: #f8f8f8;
-  padding: 4rem 2rem;
-}
-
-.dv-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  max-width: 1000px;
-  margin: auto;
-  gap: 2rem;
-}
-
-.dv-content img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-}
-
-.dv-text {
-  max-width: 500px;
-}
-
-.dv-text h2 {
-  font-size: 2rem;
-  color: #CA3740;
-  margin-bottom: 0.5rem;
-}
-
-.dv-text p {
-  font-size: 1.1rem;
-  color: #333;
 }
 
 /* Footer */
