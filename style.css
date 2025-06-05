@@ -195,3 +195,11 @@ footer a {
   left: 2rem;
 }
 }
+.logo-small {
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 90px;
+  height: auto;
+  z-index: 999;
+}
