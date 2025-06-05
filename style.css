@@ -11,7 +11,7 @@ body {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
-  width: 90px;
+  width: 80px;
   height: auto;
   z-index: 10;
 }
@@ -26,20 +26,21 @@ body {
 
 .hero-text {
   flex: 1;
-  padding: 3rem 4rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 300px;
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin-bottom: 0.5rem;
   color: #CA3740;
 }
 
 .hero-text p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
@@ -66,7 +67,6 @@ body {
   margin-top: 0.5rem;
 }
 
-/* Hero Image */
 .hero-image {
   flex: 1;
   min-height: 80vh;
@@ -85,25 +85,25 @@ body {
 }
 
 .how-it-works-wrapper {
-  max-width: 1000px;
-  margin: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 
 .howitworks-img {
-  width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .how-it-works ol {
-  text-align: left;
-  max-width: 600px;
+  max-width: 400px;
   font-size: 1.1rem;
-  padding-left: 1.25rem;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 1.2rem;
 }
 
 /* Diminished Value Section */
@@ -116,7 +116,7 @@ body {
 }
 
 .dv-overlay {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 3rem 2rem;
   max-width: 700px;
   margin: auto;
@@ -176,4 +176,27 @@ footer {
 footer a {
   color: #ffffff;
   margin: 0 0.5rem;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .hero-split {
+    flex-direction: column-reverse;
+  }
+
+  .how-it-works-wrapper {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    padding: 2rem 1.5rem;
+  }
 }
