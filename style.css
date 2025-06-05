@@ -1,4 +1,4 @@
-/* General Reset & Font */
+/* General Layout */
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -53,6 +53,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
+  max-width: 250px;
+  text-align: center;
 }
 
 .cta-button:hover {
@@ -67,37 +69,46 @@ body {
 /* Hero Image */
 .hero-image {
   flex: 1;
-  background: url('assets/gigdriver.jpg') no-repeat center center;
-  background-size: cover;
   min-height: 80vh;
 }
 
 /* How It Works Section */
 .how-it-works {
-  text-align: center;
   padding: 4rem 2rem;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .how-it-works-wrapper {
+  max-width: 1000px;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
 }
 
-.how-it-works-wrapper div {
-  max-width: 300px;
+.howitworks-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
 }
 
-.how-it-works-wrapper img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 0.75rem;
+.how-it-works ol {
+  text-align: left;
+  max-width: 600px;
+  font-size: 1.1rem;
+  padding-left: 1.25rem;
 }
 
 /* Diminished Value Section */
-.dv-section {
-  background: url('assets/cars1.jpg') no-repeat center center;
+.dv-claim {
+  background: url('assets/cars2.jpg') no-repeat center center;
   background-size: cover;
   padding: 6rem 2rem;
   text-align: center;
@@ -112,14 +123,14 @@ body {
   border-radius: 10px;
   color: #ffffff;
   font-weight: 600;
-  text-shadow: 0 0 6px rgba(0,0,0,0.4);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 
 /* Contact Form */
 .contact {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
 }
 
 .contact form {
