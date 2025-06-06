@@ -11,7 +11,7 @@ body {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 110px;
+  width: 130px;
   height: auto;
   z-index: 1000;
 }
@@ -40,13 +40,13 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
   color: #CA3740;
 }
 
 .hero-text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   color: #000000;
 }
@@ -63,21 +63,31 @@ body {
   display: inline-block;
   max-width: 250px;
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .cta-button:hover {
   background-color: #a52c34;
 }
 
-.email-link {
+.email-link a {
+  display: inline-block;
+  background-color: #CA3740;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
   font-size: 0.95rem;
+  text-decoration: none;
+  border-radius: 8px;
   margin-top: 0.5rem;
-  color: #000000;
+}
+
+.email-link a:hover {
+  background-color: #a52c34;
 }
 
 .hero-image {
   flex: 1;
-  max-width: 500px;
+  max-width: 450px;
   min-height: 350px;
   background: url('assets/gigdriver.jpg') no-repeat center center;
   background-size: contain;
@@ -206,7 +216,7 @@ footer a {
   }
 
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .hero-text {
@@ -217,7 +227,7 @@ footer a {
   .logo-small {
     top: 1rem;
     left: 1rem;
-    width: 80px;
+    width: 90px;
   }
 
   .hero-image {
