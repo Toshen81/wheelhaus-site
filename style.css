@@ -9,9 +9,9 @@ body {
 /* Logo */
 .logo-small {
   position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  width: 150px;
+  top: 1rem;
+  left: 1rem;
+  width: 100px;
   height: auto;
   z-index: 1000;
 }
@@ -26,24 +26,23 @@ body {
 
 .hero-text {
   flex: 1;
-  padding: 3rem 5rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   min-width: 300px;
+  z-index: 10;
 }
 
 .hero-text h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: #CA3740;
 }
 
 .hero-text p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
-
 }
 
 .cta-button {
@@ -74,7 +73,7 @@ body {
   min-height: 80vh;
   background-image: url('assets/gigdriver.jpg');
   background-size: contain;
-  background-position: left center;
+  background-position: center left;
   background-repeat: no-repeat;
 }
 
@@ -95,7 +94,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: rem;
+  gap: 2rem;
 }
 
 .howitworks-img {
@@ -209,6 +208,6 @@ footer a {
   .logo-small {
     top: 1rem;
     left: 1rem;
-    width: 70px;
+    width: 80px;
   }
 }
