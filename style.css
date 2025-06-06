@@ -72,8 +72,10 @@ body {
 .hero-image {
   flex: 1;
   min-height: 80vh;
-  background: url('assets/gigdriver.jpg') no-repeat left 30% top 60%;
-  background-size: cover;
+  background: url('assets/gigdriver.jpg') no-repeat center left;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 /* How It Works Section */
