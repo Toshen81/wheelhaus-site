@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   max-width: 500px;
   z-index: 1;
 }
@@ -87,10 +87,10 @@ body {
 
 .hero-image {
   flex: 1;
-  min-height: 450px;
-  max-width: 500px;
+  max-width: 600px;
+  min-height: 400px;
   background: url('assets/gigdriver.jpg') no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -227,7 +227,7 @@ footer a {
   .logo-small {
     top: 1rem;
     left: 1.5rem;
-    width: 100px;
+    width: 110px;
   }
 
   .hero-image {
