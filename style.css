@@ -9,9 +9,9 @@ body {
 /* Logo */
 .logo-small {
   position: absolute;
-  top: 1rem;
-  left: 4rem;
-  width: 175px;
+  top: 0.5rem;
+  left: 6rem;
+  width: 185px;
   height: auto;
   z-index: 1000;
 }
@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   max-width: 500px;
   z-index: 1;
 }
@@ -88,11 +88,11 @@ body {
 .hero-image {
   flex: 1;
   max-width: 700px;
-  min-height: 500px;
+  min-height: 520px;
   background: url('assets/gigdriver.jpg') no-repeat center bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: -2rem;
+  margin-left: -4rem;
 }
 
 /* How It Works Section */
@@ -227,7 +227,7 @@ footer a {
   .logo-small {
     top: 1rem;
     left: 1.5rem;
-    width: 130px;
+    width: 140px;
   }
 
   .hero-image {
