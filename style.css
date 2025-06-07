@@ -9,8 +9,8 @@ body {
 /* Logo */
 .logo-small {
   position: absolute;
-  top: 0.25rem;
-  left: 3rem;
+  top: 0.3rem;
+  left: 4rem;
   width: 185px;
   height: auto;
   z-index: 1000;
@@ -92,7 +92,7 @@ body {
   background: url('assets/gigdriver.jpg') no-repeat center bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: -2rem;
+  margin-left: -4rem;
 }
 
 /* How It Works Section */
@@ -112,13 +112,14 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .howitworks-img {
-  max-width: 400px;
+  max-width: 375px;
   border-radius: 10px;
   width: 100%;
+  margin-right: -1rem;
 }
 
 .how-it-works ol {
