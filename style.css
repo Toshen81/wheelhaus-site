@@ -232,10 +232,12 @@ footer a {
   }
 
   .hero-image {
-    background: url('assets/gigdriver.jpg') no-repeat center bottom;
-    background-size: contain;
-    min-height: 300px;
-    width: 100%;
+  background: url('assets/gigdriver.jpg') no-repeat center bottom;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  width: 100%;
+}
   }
 
   .dv-overlay {
