@@ -87,12 +87,14 @@ body {
 
 .hero-image {
   flex: 1;
-  max-width: 600px;
-  min-height: 500px;
-  background: url('assets/gigdriver.jpg') no-repeat center bottom;
-  background-size: contain;
+  width: 500px;
+  height: 520px;
+  background: url('assets/gigdriver.jpg') no-repeat center top;
+  background-size: auto;
   background-repeat: no-repeat;
-  margin-left: -2rem;
+  margin: 0 auto;
+}
+
 }
 
 /* How It Works Section */
