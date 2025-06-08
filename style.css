@@ -235,13 +235,14 @@ footer a {
     width: 140px;
   }
 
-  .hero-image {
+ .hero-image {
   background: url('assets/gigdriver.jpg') no-repeat center center;
   background-size: contain;
   min-height: 320px;
   width: 100%;
+  max-width: 700px;
   margin: 0 auto;
-}
+  display: block;
 
   .dv-overlay .cta-button {
     display: block;
