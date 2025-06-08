@@ -231,12 +231,12 @@ footer a {
     width: 140px;
   }
 
-  .hero-image {
+ .hero-image {
   background: url('assets/gigdriver.jpg') no-repeat center bottom;
-  background-size: cover;
-  background-position: center;
-  height: 280px;
+  background-size: contain;
+  min-height: 300px;
   width: 100%;
+  margin: 0 auto;
 }
   }
 
