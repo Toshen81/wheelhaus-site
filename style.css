@@ -243,9 +243,12 @@ footer a {
 }
   }
 
-  .dv-overlay {
-    margin: auto;
-    max-width: 90%;
+  .dv-overlay .cta-button {
+  display: block;
+  margin: 1.5rem auto 0;
+  width: 100%;
+  max-width: 250px;
+}
   }
 
   .howitworks-img {
