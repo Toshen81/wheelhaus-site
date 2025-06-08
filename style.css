@@ -236,12 +236,12 @@ footer a {
   }
 
   .hero-image {
-    background: url('assets/gigdriver.jpg') no-repeat center center;
-    background-size: contain;
-    min-height: 300px;
-    width: 100%;
-    margin: 0 auto;
-  }
+  background: url('assets/gigdriver.jpg') no-repeat center center;
+  background-size: contain;
+  min-height: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
 
   .dv-overlay .cta-button {
     display: block;
@@ -251,12 +251,18 @@ footer a {
   }
 
   .howitworks-img {
-    margin: 0 auto;
-    max-width: 90%;
-  }
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+}
+
 
   .how-it-works ol {
-    padding-left: 0;
-    text-align: center;
-  }
+  text-align: left;
+  margin: 1rem auto 0;
+  padding-left: 1.5rem;
+  max-width: 700px;
+}
+
 }
