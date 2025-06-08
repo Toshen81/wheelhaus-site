@@ -111,8 +111,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* This centers the image + text combo */
   gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto; /* This ensures it's centered in the section */
 }
 
 .howitworks-img {
