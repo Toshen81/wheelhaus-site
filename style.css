@@ -251,11 +251,8 @@ footer a {
   }
 
   .howitworks-img {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 700px;
-}
-
+    margin: 0 auto;
+    max-width: 90%;
   }
 
   .how-it-works ol {
@@ -263,4 +260,3 @@ footer a {
     text-align: center;
   }
 }
-
