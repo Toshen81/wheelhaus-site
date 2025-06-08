@@ -226,9 +226,11 @@ footer a {
   }
 
   .logo-small {
-    top: 0.5rem;
-    left: 1rem;
-    width: 140px;
+  top: 0.1rem;
+  left: 1rem;
+  width: 140px;
+}
+
   }
 
  .hero-image {
