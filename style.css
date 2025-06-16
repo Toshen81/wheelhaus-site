@@ -265,3 +265,6 @@ footer a {
     max-width: 700px;
   }
 }
+.playfair-btn {
+  font-family: 'Playfair Display', serif !important;
+}
