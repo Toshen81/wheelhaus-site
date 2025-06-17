@@ -30,13 +30,15 @@ body {
 
 .hero-text {
   flex: 1;
-  padding: 2rem;
+  padding: 3rem; /* Increased padding */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  max-width: 500px;
-  z-index: 1;
+  align-items: center;
+  text-align: center; /* Prevents overlap */
+  max-width: 450px; /* Slightly reduced width */
+  z-index: 2;
+  position: relative;
 }
 
 .hero-text h1 {
@@ -88,8 +90,8 @@ body {
 .hero-image {
   flex: 1;
   max-width: 700px;
-  min-height: 520px;
-  background: url('assets/gigdriver.jpg') no-repeat center center;
+  min-height: 450px; /* Reduced height */
+  background: url('assets/gigdriver-edited.jpg') no-repeat center center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: -4rem;
