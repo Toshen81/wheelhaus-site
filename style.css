@@ -216,6 +216,7 @@ footer a {
     text-align: center;
     padding: 1.5rem; /* Reduced padding slightly */
     gap: 1rem; /* Creates balanced spacing */
+    width: 100%; /* Force full width */
 }
 
 .dv-overlay .cta-button {
@@ -227,7 +228,9 @@ footer a {
     width: auto;
     max-width: 250px;
     text-align: center;
+    position: relative; /* Helps prevent shifting */
 }
+
 
   .how-it-works-wrapper {
     flex-direction: column;
