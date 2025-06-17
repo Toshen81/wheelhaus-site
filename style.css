@@ -214,17 +214,18 @@ footer a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 3rem 1rem; /* Reduce side padding */
+    padding: 2rem; /* Adjusted padding for better centering */
 }
 
-  dv-overlay .cta-button {
+  .dv-overlay .cta-button { /* Fixed selector */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto; /* Full centering */
-    width: 100%;
+    margin: 2rem auto; /* Adjusted margin for improved centering */
+    width: auto; /* Changed width for better fit */
     max-width: 250px;
     text-align: center;
+ }
 }
 
   .how-it-works-wrapper {
