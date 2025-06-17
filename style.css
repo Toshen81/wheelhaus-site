@@ -242,6 +242,8 @@ footer a {
     max-width: 700px;
     margin: 0 auto;
     display: block;
+    aspect-ratio: 4 / 3;
+    height: auto;
   }
 
   .dv-overlay .cta-button {
@@ -257,6 +259,8 @@ footer a {
     max-width: 700px;
     margin: 0 auto;
     display: block;
+    aspect-ratio: 4 / 3;
+    height: auto;
   }
 
   .how-it-works ol {
