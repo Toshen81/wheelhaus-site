@@ -224,13 +224,14 @@ footer a {
     justify-content: center;
     align-items: center;
     margin: auto; /* Full vertical + horizontal centering */
-    padding: 1rem 2rem; /* Adjusted button spacing */
+    padding: 1rem 2rem;
     width: auto;
     max-width: 250px;
     text-align: center;
-    position: relative; /* Helps prevent shifting */
+    position: relative;
+    left: 50%; /* Moves button to the center */
+    transform: translateX(-50%); /* Aligns it precisely */
 }
-
 
   .how-it-works-wrapper {
     flex-direction: column;
