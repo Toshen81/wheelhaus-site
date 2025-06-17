@@ -208,23 +208,24 @@ footer a {
   .hero-split {
     flex-direction: column;
   }
-  .dv-overlay {
+ .dv-overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+    padding: 3rem 1rem; /* Reduce side padding */
+}
 
-  .dv-overlay .cta-button {
+  dv-overlay .cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
+    margin: auto; /* Full centering */
     width: 100%;
     max-width: 250px;
     text-align: center;
-  }
+}
 
   .how-it-works-wrapper {
     flex-direction: column;
