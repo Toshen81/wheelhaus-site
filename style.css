@@ -34,9 +34,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  max-width: 500px;
-  z-index: 1;
+  align-items: center; /* Center text */
+  text-align: center; /* Prevent overlap */
+  max-width: 450px; /* Slightly reduced width */
+  z-index: 2;
+  position: relative;
 }
 
 .hero-text h1 {
