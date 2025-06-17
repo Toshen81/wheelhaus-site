@@ -23,10 +23,12 @@ body {
   min-height: 80vh;
   background-color: #ffffff;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; /* Pushes elements apart */
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 4rem 2rem; /* Increased spacing */
+  gap: 3rem; /* Creates more separation */
 }
+
 
 .hero-text {
   flex: 1;
