@@ -34,11 +34,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center text */
-  text-align: center; /* Prevent overlap */
-  max-width: 450px; /* Slightly reduced width */
-  z-index: 2;
-  position: relative;
+  align-items: flex-end;
+  max-width: 500px;
+  z-index: 1;
 }
 
 .hero-text h1 {
@@ -91,8 +89,8 @@ body {
   flex: 1;
   max-width: 700px;
   min-height: 520px;
-  background: url('assets/gigdriver-edited.jpg') no-repeat center center;
-  background-size: cover; /* Ensures full-width scaling */
+  background: url('assets/gigdriver.jpg') no-repeat center center;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-left: -4rem;
 }
