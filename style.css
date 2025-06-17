@@ -89,8 +89,8 @@ body {
   flex: 1;
   max-width: 700px;
   min-height: 520px;
-  background: url('assets/gigdriver.jpg') no-repeat center bottom;
-  background-size: contain;
+  background: url('assets/gigdriver.jpg') no-repeat center center;
+  background-size: cover; /* Ensures full-width scaling */
   background-repeat: no-repeat;
   margin-left: -4rem;
 }
