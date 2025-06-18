@@ -93,7 +93,7 @@ body {
   flex: 1;
   max-width: 700px;
   min-height: 450px;
-  background: url('assets/gigdriver-edited.jpg') no-repeat 60% center;
+  background: url('assets/gigdriver-edited.jpg') no-repeat 65% center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: -4rem;
@@ -229,14 +229,11 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto; /* Full vertical + horizontal centering */
+    margin: auto; /* Ensures proper centering */
     padding: 1rem 2rem;
     width: auto;
     max-width: 250px;
     text-align: center;
-    position: relative;
-    left: 50%; /* Moves button to the center */
-    transform: translateX(-50%); /* Aligns it precisely */
 }
 
   .how-it-works-wrapper {
