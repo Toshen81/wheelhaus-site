@@ -265,8 +265,8 @@ footer a {
   }
 
   .hero-image {
-    background: url('assets/gigdriver-edited.jpg') no-repeat center center;
-    background-size: cover; /* Ensures full width */
+    background: url('assets/gigdriver-edited.jpg') no-repeat top center;
+    background-size: cover; /* Keeps image framing consistent */
     min-height: 320px;
     width: 100%;
     max-width: 700px;
