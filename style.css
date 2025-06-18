@@ -92,11 +92,13 @@ body {
 .hero-image {
   flex: 1;
   max-width: 700px;
-  min-height: 450px; /* Reduced height */
+  min-height: 450px;
   background: url('assets/gigdriver-edited.jpg') no-repeat center center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: -4rem;
+  border-radius: 20px; /* Rounds the corners */
+  overflow: hidden; /* Ensures the corners show properly */
 }
 
 /* How It Works Section */
