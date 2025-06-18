@@ -220,10 +220,11 @@ footer a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1.5rem; /* Reduced padding slightly */
-    gap: 1rem; /* Creates balanced spacing */
-    width: 100%; /* Force full width */
-    margin: 0 auto; /* Centers the box */
+    padding: 1.5rem;
+    gap: 1rem;
+    width: auto;
+    max-width: 500px; /* Matches Contact Us width */
+    margin: 0 auto; /* Fully centers the box */
 }
 
 .dv-overlay .cta-button {
