@@ -229,11 +229,11 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto; /* Ensures proper centering */
+    margin: auto; /* Keeps button fully centered */
     padding: 1rem 2rem;
-    width: auto;
     max-width: 250px;
     text-align: center;
+    width: 100%; /* Ensures button takes full width for proper centering */
 }
 
   .how-it-works-wrapper {
