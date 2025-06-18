@@ -276,12 +276,14 @@ footer a {
     height: auto;
 }
   .dv-overlay .cta-button {
-    display: block;
-    margin: 2rem auto 0;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
     max-width: 250px;
     text-align: center;
-  }
+}
 
   .howitworks-img {
     width: 100%;
