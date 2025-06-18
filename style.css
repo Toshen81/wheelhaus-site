@@ -223,6 +223,7 @@ footer a {
     padding: 1.5rem; /* Reduced padding slightly */
     gap: 1rem; /* Creates balanced spacing */
     width: 100%; /* Force full width */
+    margin: 0 auto; /* Centers the box */
 }
 
 .dv-overlay .cta-button {
