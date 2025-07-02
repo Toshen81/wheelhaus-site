@@ -260,12 +260,12 @@ footer a {
   }
 
   .logo-small {
-  position: relative; /* Instead of absolute */
+  position: relative;
   top: auto;
   left: auto;
   width: 140px;
   display: block;
-  margin: 2rem auto 1rem; /* Top and bottom spacing */
+  margin: 2rem auto 1rem;
   z-index: 1000;
 }
 
