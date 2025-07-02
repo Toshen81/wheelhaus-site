@@ -9,21 +9,16 @@ body {
 }
 
 /* Logo */
-@media (max-width: 768px) {
-  .logo-small {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    width: 140px !important;
-    display: block;
-    margin: 2rem auto 1rem;
-    z-index: 1000;
-  }
-
-  nav {
-    padding-top: 1rem;
-  }
+.logo-small {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 140px;
+  display: block;
+  margin: 2rem auto 1rem;
+  z-index: 1000;
 }
+
 
 
 /* Hero Section */
