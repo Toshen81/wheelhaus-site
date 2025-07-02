@@ -260,12 +260,13 @@ footer a {
   }
 
   .logo-small {
-  top: -1.75rem;
-  left: -0.5rem;
+  position: relative; /* Instead of absolute */
+  top: auto;
+  left: auto;
   width: 140px;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 80px; /* Adds space below logo so it doesn't overlap nav */
+  margin: 2rem auto 1rem; /* Top and bottom spacing */
+  z-index: 1000;
 }
 
 
