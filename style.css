@@ -316,10 +316,14 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #CA3740; /* Matches your CTA button color */
+  background-color: #CA3740;
   padding: 1rem 2rem;
   font-family: 'Playfair Display', serif;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
+
 
 .navbar .logo {
   font-size: 1.5rem;
