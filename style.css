@@ -257,13 +257,14 @@ footer a {
     text-align: center;
   }
 
-  .logo-small {
-  max-height: 60px;
+ .logo-small {
+  max-height: 100px; /* You can try 120px if the image looks sharp */
   height: auto;
   width: auto;
   margin: 0;
   display: inline-block;
 }
+
 
 
   .hero-image {
