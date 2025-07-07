@@ -358,13 +358,23 @@ footer a {
 }
 
 
-.nav-links li a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 500;
-  font-family: 'Playfair Display', serif;
-  transition: color 0.3s ease;
+/* Default for desktop */
+@media screen and (min-width: 769px) {
+  .nav-links li a {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+  }
 }
+
+/* Override for mobile */
+@media screen and (max-width: 768px) {
+  .nav-links.show li a {
+    color: #000000 !important;
+    font-family: 'Playfair Display', serif !important;
+  }
+}
+
+
 
 
 .nav-links li a:hover {
