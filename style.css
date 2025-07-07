@@ -347,13 +347,16 @@ footer a {
   color: #ffffff;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
+@media screen and (min-width: 769px) {
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
 }
+
 
 .nav-links li a {
   text-decoration: none;
