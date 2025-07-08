@@ -146,20 +146,22 @@
     </form>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 WheelHaus Rentals | Located in Greenville, SC</p>
-    <a href="terms.html">Terms & Conditions</a> |
-    <a href="privacy.html">Privacy Policy</a>
-  </footer>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 WheelHaus Rentals | Located in Greenville, SC</p>
+  <a href="terms.html">Terms & Conditions</a> |
+  <a href="privacy.html">Privacy Policy</a>
+</footer>
 
-  <script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menu-toggle');
     const navLinks = document.getElementById('nav-links');
 
     menuToggle.addEventListener('click', () => {
       navLinks.classList.toggle('show');
     });
-  </script>
+  });
+</script>
 </body>
 </html>
