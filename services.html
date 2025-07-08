@@ -14,6 +14,7 @@
       color: #ffffff;
     }
 
+    /* 🔗 Navigation Styles */
     nav {
       background-color: #000000;
       padding: 15px 30px;
@@ -26,8 +27,12 @@
       max-height: 50px;
     }
 
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
     .nav-links a {
-      margin: 0 15px;
       text-decoration: none;
       color: #ffffff;
       font-weight: bold;
@@ -35,19 +40,10 @@
       font-size: 1rem;
     }
 
-    .logo-banner {
-      text-align: center;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-
-    .logo-banner img {
-      max-width: 150px;
-    }
-
+    /* 📄 Services Section */
     .services-section {
       max-width: 900px;
-      margin: 0 auto 60px;
+      margin: 60px auto;
       padding: 0 20px;
       text-align: center;
     }
@@ -72,45 +68,3 @@
       padding-left: 0;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #990000;
-      font-size: 0.9rem;
-      color: #ffffff;
-    }
-  </style>
-</head>
-<body>
-
-  <nav>
-    <div class="nav-logo">
-      <a href="index.html">
-        <img src="assets/logo.png" alt="WheelHaus Logo">
-      </a>
-    </div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </div>
-  </nav>
-
-  <section class="services-section">
-    <h1>Our Services</h1>
-    <ul>
-      <li><strong>Daily Car Rentals</strong> — Perfect for short trips and spontaneous getaways.</li>
-      <li><strong>Weekly Packages</strong> — Flexible options for longer travels with premium rates.</li>
-      <li><strong>Executive Business Rentals</strong> — Stylish vehicles that make an impression.</li>
-      <li><strong>Event Car Hire</strong> — Sleek rides for weddings, photoshoots, and special occasions.</li>
-      <li><strong>Long-term Leasing</strong> — Hassle-free monthly solutions for frequent drivers.</li>
-    </ul>
-  </section>
-
-  <footer>
-    © 2025 WheelHaus Rentals. All rights reserved.
-  </footer>
-</body>
-</html>
