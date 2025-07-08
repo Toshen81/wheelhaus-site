@@ -15,16 +15,24 @@
     }
 
     nav {
-      background-color: #990000;
-      padding: 15px;
-      text-align: center;
+      background-color: #000000;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    nav a {
+    .nav-logo img {
+      max-height: 50px;
+    }
+
+    .nav-links a {
       margin: 0 15px;
       text-decoration: none;
       color: #ffffff;
       font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1rem;
     }
 
     .logo-banner {
@@ -74,17 +82,21 @@
   </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="privacy.html">Privacy</a>
-    <a href="terms.html">Terms</a>
-  </nav>
 
-  <div class="logo-banner">
-    <img src="assets/logo.png" alt="WheelHaus Logo">
-  </div>
+  <nav>
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="WheelHaus Logo">
+      </a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </nav>
 
   <section class="services-section">
     <h1>Our Services</h1>
