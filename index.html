@@ -10,47 +10,76 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-  <style>
-    /* 🔗 Header Styling */
-    .site-header {
-      background-color: #b30000;
-      padding: 15px 30px;
-    }
+ <style>
+  .site-header {
+    background-color: #b30000;
+    padding: 15px 30px;
+  }
 
-    .header-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .logo-small {
-      max-height: 100px;
-      width: auto;
+  .logo-small {
+    max-height: 100px;
+    width: auto;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  /* ✅ Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+      font-size: 28px;
+      color: #ffffff;
+      cursor: pointer;
     }
 
     .nav-links {
-      display: flex;
-      gap: 15px;
-      list-style: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 30px;
+      background-color: #b30000;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+      z-index: 999;
     }
 
-    .nav-links a {
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #ffffff;
-      font-size: 1rem;
+    .nav-links.show {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
     }
-
-    /* Optional: Mobile menu toggle style */
-    .menu-toggle {
-      display: none;
-    }
-
-    /* Add additional responsive styles below if needed */
-  </style>
+  }
+</style>
 </head>
 <body>
+
   <header class="site-header">
     <div class="header-container">
       <a href="index.html">
