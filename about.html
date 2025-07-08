@@ -16,13 +16,13 @@
       font-family: 'Playfair Display', serif;
       margin: 0;
       padding: 0;
-      background-color: #fff;
-      color: #333;
+      background-color: #b30000; /* deep red */
+      color: #ffffff; /* white text */
     }
 
     /* 🔗 Navigation Bar */
     nav {
-      background-color: #f8f8f8;
+      background-color: #990000;
       padding: 15px;
       text-align: center;
     }
@@ -30,21 +30,33 @@
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #333;
+      color: #ffffff;
       font-weight: bold;
+    }
+
+    /* 🎯 Logo Styling */
+    .logo-banner {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .logo-banner img {
+      max-width: 150px;
     }
 
     /* 📄 About Section Layout */
     .about-section {
       max-width: 800px;
-      margin: 60px auto;
+      margin: 0 auto 60px;
       padding: 0 20px;
       text-align: center;
     }
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      font-weight: bold;
     }
 
     p {
@@ -57,7 +69,8 @@
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #f8f8f8;
+      background-color: #990000;
+      color: #ffffff;
     }
   </style>
 </head>
@@ -67,7 +80,13 @@
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
   </nav>
+
+  <!-- 🎯 Logo Display -->
+  <div class="logo-banner">
+    <img src="assets/logo.png" alt="WheelHaus Logo">
+  </div>
 
   <!-- 📄 About Us Content -->
   <div class="about-section">
