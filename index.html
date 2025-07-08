@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>About Us</title>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="WheelHaus Rentals - Flexible car rentals for gig workers in Greenville, SC" />
+  <title>WheelHaus Rentals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-
   <header class="site-header">
     <div class="header-container">
       <a href="index.html">
@@ -25,7 +28,70 @@
     </div>
   </header>
 
-  <main class="about-section" style="max-width:800px; margin:60px auto; padding:0 20px;">
-    <h1 style="text-align:center; font-weight:bold; font-family:'Playfair Display', serif;">About Us</h1>
-    <p>At WheelHaus Rentals, we believe transportation is more than just getting from point A to point B — it’s a pathway to freedom, opportunity, and stability.</p>
-    <p>Founded in Greenville, South Carolina, our mission is simple: to help hardworking people
+  <!-- Hero Section -->
+  <header class="hero-split">
+    <div class="hero-text">
+      <h1>Drive on Your Terms</h1>
+      <p>Flexible Weekly Rentals for Gig Workers</p>
+      <p style="font-weight: bold; font-size: 1rem;">Call: (864) 447-2500</p>
+      <p class="email-link">
+        <a href="mailto:support@wheelhausrentals.com">Email: support@wheelhausrentals.com</a>
+      </p>
+    </div>
+    <div class="hero-image"></div>
+  </header>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="how-it-works-wrapper">
+      <img src="assets/gps.jpg" alt="GPS" class="howitworks-img" />
+      <ol>
+        <li>Call or text us to check availability</li>
+        <li>Complete a quick background check</li>
+        <li>Submit your documents</li>
+        <li>Pay the weekly rental fee</li>
+        <li>Pick up or get delivery of your vehicle</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Diminished Value Section -->
+  <section class="dv-claim">
+    <div class="dv-overlay">
+      <h2>Diminished Value Claim?</h2>
+      <p>
+        Have you been in an accident within the last few years? You could be owed money. Start your free diminished value evaluation below.
+      </p>
+      <a href="https://forms.gle/wYF29wGPqeDJn44U7" class="cta-button" target="_blank">Start Evaluation</a>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xkgbgwbd" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="How can we help you?" required></textarea>
+      <button type="submit" class="playfair-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 WheelHaus Rentals | Located in Greenville, SC</p>
+    <a href="terms.html">Terms & Conditions</a> |
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
