@@ -3,105 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>About Us</title>
-
-  <!-- Google Fonts: Branding style -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-
-  <!-- External CSS file -->
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <style>
-    /* ✨ Brand Styling */
     body {
       font-family: 'Playfair Display', serif;
       margin: 0;
       padding: 0;
-      background-color: #b30000; /* deep red */
-      color: #ffffff; /* white text */
+      background-color: #b30000;
+      color: #ffffff;
     }
 
-    /* 🔗 Navigation Bar */
     nav {
-      background-color: #990000;
-      padding: 15px;
-      text-align: center;
+      background-color: #b30000;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    nav a {
-      margin: 0 15px;
+    .nav-logo img {
+      max-height: 100px;
+      width: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-links a {
       text-decoration: none;
       color: #ffffff;
       font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1rem;
     }
 
-    /* 🎯 Logo Styling */
-    .logo-banner {
-      text-align: center;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-
-    .logo-banner img {
-      max-width: 150px;
-    }
-
-    /* 📄 About Section Layout */
     .about-section {
-      max-width: 800px;
-      margin: 0 auto 60px;
-      padding: 0 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 30px;
-      font-weight: bold;
-    }
-
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    /* 🧯 Footer Style */
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #990000;
-      color: #ffffff;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- 🔗 Navigation Links -->
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="services.html">Services</a>
-  </nav>
-
-  <!-- 🎯 Logo Display -->
-  <div class="logo-banner">
-    <img src="assets/logo.png" alt="WheelHaus Logo">
-  </div>
-
-  <!-- 📄 About Us Content -->
-  <div class="about-section">
-    <h1>About Us</h1>
-    <p>At WheelHaus Rentals, we believe transportation is more than just getting from point A to point B — it’s a pathway to freedom, opportunity, and stability.</p>
-    <p>Founded in Greenville, South Carolina, our mission is simple: to help hardworking people stay on the road and in control of their income. Whether you're a dedicated DoorDash driver or navigating life’s transitions, we understand how critical reliable transportation is to your success.</p>
-    <p>Rooted in a passion for service and family, we created this company to be flexible, affordable, and people-centered. Our rentals are designed with gig workers in mind — giving you the freedom to earn without the stress of traditional car ownership or credit checks.</p>
-    <p>We know what it’s like to juggle family, work, and responsibility. That’s why WheelHaus exists — to support your hustle, your goals, and your peace of mind.</p>
-    <p>Let us help you keep moving forward.</p>
-  </div>
-
-  <!-- 🧯 Footer -->
-  <footer>
-    <p>&copy; 2025 WheelHaus Rentals. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px
