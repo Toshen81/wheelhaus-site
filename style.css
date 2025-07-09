@@ -229,9 +229,12 @@ footer a {
  .hero-image {
   min-height: 300px;
   display: block;
+  background-image: url('assets/gigdriver-edited.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+
 
 
   .logo-small {
