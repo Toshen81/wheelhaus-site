@@ -226,13 +226,14 @@ footer a {
     flex-direction: column;
   }
 
- .hero-image {
+.hero-image {
   min-height: 300px;
   display: block;
   background-image: url('assets/gigdriver-edited.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: #ccc; /* fallback to confirm visibility */
 }
 
 
