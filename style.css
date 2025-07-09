@@ -230,24 +230,26 @@ footer a {
     margin: 0 auto;
   }
 
-  .dv-overlay .cta-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+ .dv-overlay .cta-button {
+  display: block;
+  width: auto;
+  margin: 1rem auto 0 auto;
   padding: 1rem 2rem;
   max-width: 250px;
   text-align: center;
 }
 
-
   .how-it-works-wrapper {
     flex-direction: column;
   }
 
-  .cta-button {
-    width: 100%;
-  }
+ .cta-button {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
   .hero-text h1 {
     font-size: 1.75rem;
