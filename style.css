@@ -226,9 +226,13 @@ footer a {
     flex-direction: column;
   }
 
-  .hero-image {
-    min-height: 300px;
-  }
+ .hero-image {
+  min-height: 300px;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+}
+
 
   .logo-small {
     max-height: 140px;
