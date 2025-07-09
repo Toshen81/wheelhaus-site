@@ -233,8 +233,11 @@ footer a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #ccc; /* fallback to confirm visibility */
+  background-color: #ccc;
+  position: relative;
+  z-index: 10;
 }
+
 
 
 
