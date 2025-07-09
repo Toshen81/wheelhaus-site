@@ -231,7 +231,9 @@ footer a {
   }
 
   .dv-overlay .cta-button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding: 1rem 2rem;
   max-width: 250px;
