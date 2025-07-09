@@ -11,12 +11,13 @@ body {
 /* Logo */
 .logo-small {
   position: absolute;
-  top: 0rem; /* Raised even more */
+  top: 0rem;
   left: 2rem;
-  width: 120px;
+  width: 140px; /* 🔼 gently enlarged */
   height: auto;
   z-index: 1000;
 }
+
 
 
 
