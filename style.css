@@ -10,50 +10,12 @@ body {
 
 /* Logo */
 .logo-small {
-  max-height: 180px;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  width: 120px;
   height: auto;
-  width: auto;
-  margin-right: 2rem;
-  display: inline-block;
-}
-
-/* Navigation */
-.site-header {
-  background-color: #b30000;
-  padding: 15px 30px;
-  position: sticky;
-  top: 0;
   z-index: 1000;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #ffffff;
-  font-size: 1rem;
-}
-
-/* Call Button */
-.call-btn {
-  background-color: #ffffff;
-  color: #b30000;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 /* Hero Section */
@@ -64,6 +26,7 @@ body {
   background-color: #ffffff;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
   padding: 4rem 2rem;
   gap: 3rem;
 }
@@ -71,8 +34,14 @@ body {
 .hero-text {
   flex: 1;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   max-width: 450px;
+  z-index: 2;
+  position: relative;
 }
 
 .hero-text h1 {
@@ -84,6 +53,7 @@ body {
 .hero-text p {
   font-size: 1rem;
   margin-bottom: 1rem;
+  color: #000000;
 }
 
 .cta-button {
@@ -94,38 +64,54 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 250px;
   text-align: center;
   margin-bottom: 0.5rem;
-  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #a52c34;
 }
 
 .email-link a {
+  display: inline-block;
   background-color: #CA3740;
   color: #ffffff;
   padding: 0.5rem 1rem;
   font-size: 0.95rem;
   text-decoration: none;
   border-radius: 8px;
-  display: inline-block;
   margin-top: 0.5rem;
 }
 
-/* Hero Image */
+.email-link a:hover {
+  background-color: #a52c34;
+}
+
 .hero-image {
   flex: 1;
   max-width: 700px;
   min-height: 450px;
-  background: url('assets/gigdriver-edited.jpg') no-repeat center center;
+  background: url('assets/gigdriver-edited.jpg') no-repeat 65% center;
   background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -4rem;
   border-radius: 20px;
   overflow: hidden;
 }
 
-/* How It Works */
+/* How It Works Section */
 .how-it-works {
   padding: 4rem 2rem;
   background-color: #f7f7f7;
   text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .how-it-works-wrapper {
@@ -158,6 +144,7 @@ body {
   background-size: cover;
   padding: 6rem 2rem;
   text-align: center;
+  position: relative;
 }
 
 .dv-overlay {
@@ -206,6 +193,10 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+.contact button:hover {
+  background-color: #a52c34;
+}
+
 /* Footer */
 footer {
   background-color: #000000;
@@ -221,55 +212,93 @@ footer a {
 }
 
 /* Mobile Styles */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .hero-split {
     flex-direction: column;
   }
 
-.hero-image {
-  min-height: 300px;
-  display: block;
-  background-image: url('assets/gigdriver-edited.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-color: #ccc;
-  position: relative;
-  z-index: 10;
-}
+  .dv-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 1rem;
+    width: auto;
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
+  .dv-overlay .cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 2rem;
+    max-width: 250px;
+    text-align: center;
+    width: 100%;
+  }
 
+  .how-it-works-wrapper {
+    flex-direction: column;
+  }
 
+  .cta-button {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .hero-text {
+    padding: 2rem 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
 
   .logo-small {
-    max-height: 140px;
-    margin: 0;
-  }
-
-  .menu-toggle {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 140px;
     display: block;
-    font-size: 24px;
-    color: #ffffff;
-    cursor: pointer;
+    margin: 2rem auto 1rem;
+    z-index: 1000;
   }
 
-  .nav-links {
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    background-color: #b30000;
-    padding: 1rem;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    transition: opacity 0.3s ease;
+  .hero-image {
+    background: url('assets/gigdriver-edited.jpg') no-repeat 10% center;
+    background-size: cover;
+    min-height: 320px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    aspect-ratio: 4 / 3;
+    height: auto;
   }
 
-  .nav-links.show {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
+  .howitworks-img {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: block;
+    aspect-ratio: 4 / 3;
+    height: auto;
   }
+
+  .how-it-works ol {
+    text-align: left;
+    margin: 1rem auto 0;
+    padding-left: 1.5rem;
+    max-width: 700px;
+  }
+}
+
+.playfair-btn {
+  font-family: 'Playfair Display', serif !important;
 }
